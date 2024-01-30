@@ -1,10 +1,5 @@
 // /* You can add global styles to this file, and also import other style files */
 // /* You can add global styles to this file, and also import other style files */
-// @use "@angular/material" as mat;
-// @include mat.core();
-
-// /* Importing Bootstrap SCSS file. */
-// //@import "bootstrap/scss/bootstrap";
 
 body {
   min-height: 90vh;
@@ -51,19 +46,6 @@ main {
   margin-bottom: 25px;
 }
 
-$theme-colors: (
-  "primary": #ffe600,
-  "secondary": #f7f7ff,
-  // "success":#8a897c,
-  "danger": #e03616,
-  "dark": #333333,
-  "warning": #ff9e43,
-  "info": #8a897c,
-);
-
-// /* Importing Bootstrap SCSS file. */
-// // @import "~bootstrap/scss/bootstrap";
-
 html,
 body {
   height: 100%;
@@ -76,49 +58,6 @@ body {
 h1, h2, h3, h4, h5, h6, p, ul, ol, li, blockquote, caption, cite, table {
 	font-family: 'Notosans-Regular', Helvetica, Arial, sans-serif;
 }
-
-// .loading {
-//   opacity: 0.5;
-//   background-color: #484848;
-//   width: 100%;
-//   height: 100%;
-//   position: absolute;
-//   top: 10vmin;
-//   left: 0;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-// }
-
-// .loading-modal {
-//   opacity: 0.5;
-//   background-color: #484848;
-//   width: 100%;
-//   height: 100%;
-//   position: absolute;
-//   top: 0vmin;
-//   left: 0;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   z-index: 3;
-// }
-
-// .particles {
-//   position: absolute;
-//   width: 100%;
-//   height: auto;
-//   min-height: 100vh;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-// }
-
-$primary: #ffe600;
-$secondary: #f7f7ff;
-$success: #8a897c;
-$danger: #e03616;
-$dark: #333333;
 
 .btn {
   outline: none;

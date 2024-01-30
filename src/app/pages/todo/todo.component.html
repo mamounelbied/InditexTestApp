@@ -1,0 +1,19 @@
+<li class="list-group-item p-2 rounded-lg">
+    <div class="flex align-middle flex-row justify-between">
+      <div class="p-2">
+        <p class="text-lg line-through">{{todo.name}}</p>
+        <button
+          (click)="goToDetail(todo)"
+          class="btn m-2 border-2 p-2 rounded-lg flex disabled:opacity-50"
+        >
+        <i class="bi bi-arrow-right m-2 "></i>
+          <span>Go To Detail</span>
+        </button>
+        <button (click)="deleteTodo()"
+        class="btn m-2 flex border-2 p-2 rounded-lg">
+        <i class="bi bi-trash m-2"></i>
+          <span>Delete Todo</span>
+        </button>
+      </div>
+    </div>
+  </li>

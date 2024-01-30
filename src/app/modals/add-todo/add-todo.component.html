@@ -1,0 +1,29 @@
+<form [formGroup]="myForm">
+<div class="m-4 flex">
+    <input
+      class="w-80 m-2 border-b-2 px-2 py-1 border-gray-500 text-black"
+      type="text"
+      placeholder="Todo Name"
+      formControlName="name" 
+      id="name" 
+      name="name" 
+      required
+    />
+    <input
+    class="w-80 border-b-2 m-2 px-2 py-1 border-gray-500 text-black"
+    type="text"
+    placeholder="Todo Description"
+    formControlName="description" 
+    id="description" 
+    name="description" 
+    required
+    />
+    <button
+      (click)="addTodo()"
+      class="btn ml-2 border-2 border-green-500 p-2 rounded-lg flex disabled:opacity-50"
+    >
+    <i class="bi bi-plus-square-fill m-2"></i>
+      <span>Add</span>
+    </button>
+  </div>
+</form>

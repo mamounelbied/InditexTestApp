@@ -1,0 +1,21 @@
+<div class="bg-white p-3 max-w-md mx-auto">
+    <div class="text-center m-2">
+      <h1 class="text-3xl font-bold">Inditex Test: Todo App
+        <small class="text-muted">by Mamoun El Bied</small>
+      </h1>
+      <div class="mt-4 flex">
+        <button 
+          (click)="goToAdd()"
+          class="btn ml-2 border-2 p-2 rounded-lg flex disabled:opacity-50"
+        >
+        <i class="bi bi-plus-square-fill m-2"></i>
+          <span>Add</span>
+        </button>
+      </div>
+    </div>
+    <div class="mt-8">
+      <ul class="list-group">
+        <app-todo *ngFor="let todo of todos()" [todo] = "todo"></app-todo>
+      </ul>
+    </div>
+</div>
